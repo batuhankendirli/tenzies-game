@@ -173,3 +173,176 @@ body {
     radial-gradient(circle at 75% 25%, #000000 4px, rgba(255, 255, 255, 0) 5px),
     radial-gradient(circle at 75% 75%, #000000 4px, rgba(255, 255, 255, 0) 5px);
 }
+
+@media only screen and (max-width: 570px) {
+  body {
+    font-size: 10px;
+  }
+
+  .app {
+    width: 300px;
+    height: 350px;
+  }
+
+  .box-inside {
+    width: 275px;
+    height: 275px;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .die-square {
+    height: 40px;
+    width: 40px;
+  }
+  .dice--1 {
+    background: radial-gradient(
+      circle at 50% 50%,
+      #000000 2px,
+      rgba(255, 255, 255, 0) 3px
+    );
+  }
+  .dice--2 {
+    background: radial-gradient(
+        circle at 25% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      );
+  }
+  .dice--3 {
+    background: radial-gradient(
+        circle at 75% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 50% 50%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 25% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      );
+  }
+  .dice--4 {
+    background: radial-gradient(
+        circle at 25% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 25% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      );
+  }
+  .dice--5 {
+    background: radial-gradient(
+        circle at 25% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 25% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 50% 50%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      );
+  }
+  .dice--6 {
+    background: radial-gradient(
+        circle at 25% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 25% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 25% 50%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 50%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 25%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        #000000 2px,
+        rgba(255, 255, 255, 0) 3px
+      );
+  }
+
+  .die-wrapper {
+    gap: 10px;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 10px;
+  }
+
+  .roll-button {
+    padding: 6px 18px;
+    font-size: 12px;
+  }
+
+  .best-time {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: max-content;
+  }
+
+  .total-rolls {
+    display: none;
+  }
+
+  .timer {
+    top: 60px;
+  }
+}
